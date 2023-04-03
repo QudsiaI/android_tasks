@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addNewRecord"
+        android:text="Add new Record" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECORDS"
+        android:textSize="24sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="3">
+
+        <TextView
+            android:id="@+id/rec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qudsia"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bscs 6B"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRecord"
+            android:text="Show" />
+
+        <TextView
+            android:id="@+id/rec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hafsa"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BSCS "
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/show2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRecord"
+            android:text="Show" />
+
+        <TextView
+            android:id="@+id/rec3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Javairia"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CS 6B morn"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/show3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showRecord"
+            android:text="Show" />
+    </GridLayout>
+
+</LinearLayout>
